@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Vaaljan/fresh-projects-shared#readme",
   "devDependencies": {
+    "@types/node": "^12.12.7",
     "typescript": "^3.7.2"
   }
 }

@@ -1,8 +1,11 @@
-import { flatten } from "./utilities/flatten";
-import { noDuplicate } from './utilities/noduplicates';
+import { flatten,noDuplicate } from "./utilities/functions";
 
 
-export default  {
-    flatten,
-    noDuplicate
+const fresh = {
+   functions:{
+        flatten,
+        noDuplicate
+   }
 }
+
+module.exports = fresh;
