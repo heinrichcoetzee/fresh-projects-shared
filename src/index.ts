@@ -1,11 +1,8 @@
-import { flatten,noDuplicate } from "./utilities/functions";
+import * as functions from "./utilities/functions";
 
 
 const fresh = {
-   functions:{
-        flatten,
-        noDuplicate
-   }
+   functions
 }
 
-module.exports = fresh;
+export default fresh;
