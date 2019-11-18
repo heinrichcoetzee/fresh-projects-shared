@@ -1,8 +1,4 @@
-import * as functions from "./utilities/functions";
-
-
-const fresh = {
-   functions
-}
-
+export * from './utilities/functions';
+export * from './parse/queries';
+export * from './typings/interfaces';
 export default fresh;
