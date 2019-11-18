@@ -1,4 +1,3 @@
-
 export interface AccountsEntry {
     id: string;
     month: Month;
@@ -22,9 +21,8 @@ export interface AccountsEntry {
     invoice: Invoice;
     posted: boolean;
     creditNote: Invoice;
-  }
-  
-  interface Client {
+}
+export interface Client {
     _id: string;
     name: string;
     status: string;
@@ -49,16 +47,14 @@ export interface AccountsEntry {
     trackingCat1: string;
     trackingCat2: string;
     xeroClientSettings: Object;
-  }
-
-  interface Company {
+}
+export interface Company {
     _id: string;
     name: string;
     status: string;
     locale: string;
-  }
-
-  interface Invoice {
+}
+export interface Invoice {
     id: string;
     company: Company;
     idJSON: string;
@@ -79,9 +75,8 @@ export interface AccountsEntry {
     voidSeq: number;
     invoiceSeq2: number;
     converted: Object;
-  }
-  
-  interface Month {
+}
+export interface Month {
     _id: string;
     company: Company;
     monthStart: string | Date;
@@ -92,8 +87,4 @@ export interface AccountsEntry {
     indirectCosts: number;
     profit: number;
     doCalc: boolean;
-  }
-  
-  
-
-  
+}

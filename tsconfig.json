@@ -6,6 +6,9 @@
       "outDir": "./lib",
       "strict": true
     },
-    "include": ["src", "typings", "index.ts"],
+    "include": [
+      "./src",
+      "./src/interfaces/*"
+    ],
     "exclude": ["node_modules"]
   }
